@@ -1,5 +1,4 @@
 library(shiny)
-library(useself)
 
 generate_story <- function(noun, verb, adjective, adverb) {
   story <- glue::glue("
